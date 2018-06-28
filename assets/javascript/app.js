@@ -19,6 +19,8 @@
  var startTime = "";
  var frequency = 0;
 
+
+//digital clock 
  function currentTime(){
    var current = moment().format('LT');
    $("#currentTime").html(current);
