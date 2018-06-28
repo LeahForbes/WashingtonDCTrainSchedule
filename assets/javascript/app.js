@@ -26,7 +26,6 @@
   // $("#currentTime").html(current);
   // setTimeout(currentTime, 1000);
  //};
-<script type="text/javascript">
 tday=new Array("Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday");
 tmonth=new Array("January","February","March","April","May","June","July","August","September","October","November","December");
 
@@ -50,7 +49,6 @@ window.onload=function(){
 GetClock();
 setInterval(GetClock,1000);
 }
-</script>
 <div id="clockbox"></div>
 
  $(".form-field").on("keyup", function() {
